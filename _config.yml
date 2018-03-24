@@ -1,10 +1,10 @@
-title: Streamdata Gallery Club
-url: club.streamdata.gallery
-tag: Club
+title: Streamdata Gallery Clubs
+url: clubs.streamdata.gallery
+tag: Clubs
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 github_user: streamdata-gallery
-github_repo: club
+github_repo: clubs
 github_branch: master
 collections:
   listings:
