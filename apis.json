@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Clubs",
+	"description": "This is a repository of clubs APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/clubs.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://clubs.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "YourMembership",
+			"x-api-slug": "yourmembership",
+			"description": "Built for associations and member-based organizations. Featuring membership software, award-winning learning management system & career center solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1226-yourmembership.jpg",
+			"humanURL": "https://www.yourmembership.com/",
+			"baseURL": "https:///",
+			"tags": "Clubs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clubs/master/_listings/yourmembership/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TIDYHQ",
+			"x-api-slug": "tidyhq",
+			"description": "Get more done with TidyHQ: Membership management, complete administration suite including CRM, Events ticketing, Financial management, Meetings, File Sharing, Communications. Syncing across your entire committee or board. Instant govnerance and succssi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1600-tidy.jpg",
+			"humanURL": "http://www.tidyhq.com",
+			"baseURL": "https:///",
+			"tags": "Clubs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clubs/master/_listings/tidyhq/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Strava",
+			"x-api-slug": "strava",
+			"description": "Strava is software as a service used to track cycling, running, and swimming activity via GPS.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg",
+			"humanURL": "",
+			"baseURL": "https://www.strava.com//api/v3",
+			"tags": "Clubs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clubs/master/_listings/strava/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Clubs",
+	"include": [
+		{
+			"name": "YourMembership",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clubs/master/_listings/yourmembership/apis.yaml"
+		},
+		{
+			"name": "TIDYHQ",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clubs/master/_listings/tidyhq/apis.yaml"
+		},
+		{
+			"name": "Strava",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clubs/master/_listings/strava/apis.yaml"
+		}
+	]
+}
